@@ -123,3 +123,12 @@ h1:hover,
   background-repeat: no-repeat, no-repeat, no-repeat;
   cursor: pointer;
 }
+
+/*Media Queries*/
+
+@media (min-width: 700px) {
+
+  .card {
+    box-shadow: 0rem 1.75rem .25rem .75rem hsl(218, 57%, 10%), 0rem 2rem .75rem 2.75rem hsl(218, 57%, 11%);
+  }
+}
